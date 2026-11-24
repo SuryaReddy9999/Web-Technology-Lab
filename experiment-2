@@ -1,0 +1,135 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Student Activity Portal</title> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head> 
+<body> 
+ 
+    <header> 
+        <h1>Student Activity Portal</h1> 
+        <p>Welcome to our university activity portal</p> 
+    </header> 
+ 
+    <nav> 
+        <a href="#events">Events</a> | 
+        <a href="#clubs">Activities</a> | 
+        <a href="#registration">Register</a> 
+    </nav> 
+ 
+    <main> 
+ 
+        <section id="events"> 
+            <h2>Upcoming Events</h2> 
+ 
+            <article> 
+                <h3>Tech Fest</h3> 
+                <p>Join us to explore new technologies and projects.</p> 
+                <p>Date: 10 December 2026</p> 
+            </article> 
+ 
+            <article> 
+                <h3>Sports Meet</h3> 
+                <p>Participate in different sports and games.</p> 
+                <p>Date: 15 December 2026</p> 
+            </article> 
+        </section> 
+ 
+        <section id="clubs"> 
+            <h2>Our Activities</h2> 
+ 
+            <article> 
+                <h3>Coding Club</h3> 
+                <p>Students can learn coding and improve their programming skills.</p> 
+            </article> 
+ 
+            <article> 
+                <h3>Cultural Club</h3> 
+                <p>Students can participate in dance, music and other cultural activities.</p> 
+            </article> 
+        </section> 
+ 
+        <aside> 
+            <h3>Notice</h3> 
+            <p>Please register for the events before the deadline.</p> 
+        </aside> 
+ 
+        <section id="registration"> 
+            <h2>Student Registration</h2> 
+ 
+            <form> 
+ 
+                <label for="name">Student Name:</label> 
+                <input type="text" id="name" name="name"> 
+                <br><br> 
+ 
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="email"> 
+                <br><br> 
+ 
+                <label for="roll">Roll Number:</label> 
+                <input type="text" id="roll" name="roll"> 
+                <br><br> 
+ 
+                <label for="branch">Branch:</label> 
+                <select id="branch" name="branch"> 
+                    <option value="">Select Branch</option> 
+                    <option>CSE</option> 
+                    <option>ECE</option> 
+                    <option>EEE</option> 
+                    <option>Mechanical</option> 
+                </select> 
+ 
+                <br><br> 
+ 
+                <p>Select an event:</p> 
+ 
+                <input type="radio" id="tech" name="event" value="tech"> 
+                <label for="tech">Tech Fest</label> 
+ 
+                <input type="radio" id="sport" name="event" value="sport"> 
+                <label for="sport">Sports Meet</label> 
+ 
+                <input type="radio" id="culture" name="event" value="culture"> 
+                <label for="culture">Cultural Event</label> 
+ 
+                <br><br> 
+ 
+                <p>Your Interests:</p> 
+ 
+                <input type="checkbox" id="coding" name="interest" value="coding"> 
+                <label for="coding">Coding</label> 
+ 
+                <input type="checkbox" id="music" name="interest" value="music"> 
+                <label for="music">Music</label> 
+ 
+                <input type="checkbox" id="games" name="interest" value="games"> 
+                <label for="games">Sports</label> 
+ 
+                <br><br> 
+ 
+                <label for="message">Additional Information:</label> 
+                <br> 
+ 
+                <textarea id="message" name="message" rows="4" cols="30"></textarea> 
+ 
+                <br><br> 
+ 
+                <button type="submit">Register</button> 
+                <button type="reset">Reset</button> 
+ 
+            </form> 
+        </section> 
+ 
+    </main> 
+ 
+    <footer> 
+        <p>Student Activity Portal | 2026</p> 
+        <p>University Student Portal</p> 
+    </footer> 
+ 
+</body> 
+</html> 
+ 
+ 
